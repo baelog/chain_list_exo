@@ -1,13 +1,13 @@
 #include "exo2.h"
 
 /* 
-dans cette exercice le principe est simple metre {a} dans {varA} et {b} dans {varB}
-et de retourné la stucture initial
+dans cette exercire le but est de faire eune stack c'est a dire de metre le dernier element 
+ajouter dans le debut de la list
 */
 
 void verif_function(char**, list_t*);
 
-list_t *add_node(list_t *list, int var)
+list_t *add_node(list_t *list, int var) // fonction a remplir
 {
     return (NULL);
 }
