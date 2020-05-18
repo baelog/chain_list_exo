@@ -15,13 +15,12 @@ void add_node(list_t **list, int var) // fonction a remplir
 
 int main(int ac, char **av)
 {
-    char **cpy_av = av; // pas toucher a cette valeur svp
     int i = 1;
     list_t *list = NULL;
     while (av[i] != NULL) {
         add_node(&list, atoi(av[i]));
         i += 1;
     }
-    verif_function(cpy_av, list);
+    print_list(list);
     return 0;
 }
