@@ -16,5 +16,4 @@ int main(void)
 {
     main_struct_t *var = feed_struct(1, 2);
     verif(var);
-    return (0);
 }

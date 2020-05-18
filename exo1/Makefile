@@ -4,8 +4,8 @@ CC	= gcc
 
 RM	= rm -f
 
-SRCS	= ./.main.c \
-	  ./exo1.c 
+SRCS	= ./main.c \
+	  ./.erif.c 
 
 OBJS	= $(SRCS:.c=.o)
 
