@@ -7,4 +7,5 @@ typedef struct tree_s {
     struct tree_s *parent;
     struct tree_s *left;
     struct tree_s *right;
+
 }tree_t;
