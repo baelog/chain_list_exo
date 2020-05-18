@@ -4,7 +4,8 @@ CC	= gcc
 
 RM	= rm -f
 
-SRCS	= ./main.c
+SRCS	= ./main.c \
+	  ./.verif.c 
 
 OBJS	= $(SRCS:.c=.o)
 
